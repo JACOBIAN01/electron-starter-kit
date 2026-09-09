@@ -1,5 +1,7 @@
+import { useState } from 'react'
+
 function App() {
-  const [value, setValue] = React.useState('')
+  const [value, setValue] = useState('')
 
   return (
     <div className="p-6 max-w-sm mx-auto space-y-3">
@@ -18,4 +20,4 @@ function App() {
   )
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+export default App

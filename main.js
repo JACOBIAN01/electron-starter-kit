@@ -4,5 +4,5 @@ app.whenReady().then(() => {
   new BrowserWindow({
     width: 800,
     height: 600,
-  }).loadFile('renderer/index.html')
+  }).loadFile('renderer/dist/index.html')
 })
